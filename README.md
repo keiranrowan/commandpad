@@ -11,6 +11,10 @@ Adjust config.toml to match the settings required by your Novation LaunchPad. In
 Download the source code to your Go workspace and run the following commands in the working directory.
 
 ```bash
+$ mkdir -p ~/go/src/github.com/keiranrowan
+$ cd ~/go/src/github.com/keiranrowan
+$ git clone git@github.com:keiranrowan/commandpad.git
+$ cd commandpad
 $ go get
 $ go build
 $ go install
